@@ -1,0 +1,25 @@
+# Data & generated artifacts (large / private — not tracked)
+*.csv
+*.parquet
+*.npz
+*.pkl
+checkpoint.npz
+catboost_info/
+*.tsv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# Editor / tooling
+.vscode/
+.claude/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
